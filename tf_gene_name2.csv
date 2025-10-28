@@ -1,0 +1,31 @@
+gene_name,antibiotics
+AAC\(3\)-I,"gentamicin"
+AAC\(3\)-II_III_IV_VI_VIII_IX_X,"gentamicin, tobramycin, kanamycin, ethylnetilmicin, neomycin, aminogycosides, apramycin"
+AAC\(6'\)-Ia, "dibekacin, amikacin, sisomicin, netilmicin, tobramycin, 2'-N-ethylnetilmicin, 5-episisomicin"
+AAC\(6'\)-Ib, "amikacin, tobramycin, kanamycin A"
+ANT\(2''\)-Ia,"neomycin, kanamycin, gentamicin, tobramycin"
+ANT\(3''\)-Ia,streptomycin
+ANT\(4'\)-Ia,"tobramycin, amikacin, dibekacin, isepamicin"
+ANT\(6\)-I,streptomycin
+ANT\(9\)-I,spectinomycin
+ANT\(3''\)-II, "spectinomycin, streptomycin"
+APH\(3''\)-I,streptomycin
+APH\(3'\)-I,"kanamycin, neomycin, lividomycin"
+APH\(3'\)-II,"kanamycin, neomycin, paromomycin, butirosin"
+APH\(3'\)-III,"kanamycin, neomycin, paromomycin, butirosin, lividomycin"
+APH\(6\)-I, "streptomycin"
+APH\(3'\)-VI, "neomycin, amikacin, ribostamycin, butirosin, kanamycin A, isepamicin, gentamicin B, paromomycin"
+AadA, "streptomycin, spectinomycin"
+CatA,"chloramphenicol, azidamfenicol, thiamphenicol, florfenicol"
+CatB,"chloramphenicol, azidamfenicol, thiamphenicol, florfenicol"
+Erm\(A\),"erythromycin, roxithromycin, clarithromycin, telithromycin, tylosin, spiramycin, azithromycin, dirithromycin, oleandomycin, josamycin, chalcomycin, midecamycin, mycinamicin, megalomycin, narbomycin, kitasamycin, carbomycin, rosaramicin, niddamycin, methymycin, pikromycin, rokitamycin, Solithromycin, cethromycin, carrimycin, tilmicosin, Mycaminosyltylonolide, lincomycin, clindamycin, celesticetin, pirlimycin, iboxamycin, virginiamycin M1, madumycin II, griseoviridin, dalfopristin, pristinamycin IA, quinupristin, pristinamycin IB, virginiamycin S2, pristinamycin IC, vernamycin C, patricin A, patricin B, ostreogrycin B3"
+Erm\(C\),"erythromycin, roxithromycin, clarithromycin, telithromycin, tylosin, spiramycin, azithromycin, dirithromycin, oleandomycin, josamycin, chalcomycin, midecamycin, mycinamicin, megalomycin, narbomycin, kitasamycin, carbomycin, rosaramicin, niddamycin, methymycin, pikromycin, rokitamycin, Solithromycin, cethromycin, carrimycin, tilmicosin, Mycaminosyltylonolide, lincomycin, clindamycin, celesticetin, pirlimycin, iboxamycin, virginiamycin M1, madumycin II, griseoviridin, dalfopristin, pristinamycin IA, quinupristin, pristinamycin IB, virginiamycin S2, pristinamycin IC, vernamycin C, patricin A, patricin B, ostreogrycin B3"
+Lnu\(B\),"lincomycin, clindamycin, celesticetin, pirlimycin, iboxamycin"
+Mph\(C\),"erythromycin, roxithromycin, clarithromycin, telithromycin, tylosin, spiramycin, azithromycin, dirithromycin, oleandomycin, josamycin, chalcomycin, midecamycin, mycinamicin, megalomycin, narbomycin, kitasamycin, carbomycin, rosaramicin, niddamycin, methymycin, pikromycin, rokitamycin, Solithromycin, cethromycin, carrimycin, tilmicosin, Mycaminosyltylonolide"
+Mph\(E\),"erythromycin, roxithromycin, clarithromycin, telithromycin, tylosin, spiramycin, azithromycin, dirithromycin, oleandomycin, josamycin, chalcomycin, midecamycin, mycinamicin, megalomycin, narbomycin, kitasamycin, carbomycin, rosaramicin, niddamycin, methymycin, pikromycin, rokitamycin, Solithromycin, cethromycin, carrimycin, tilmicosin, Mycaminosyltylonolide"
+rifampin_ADP-ribosyltransferase,rifampin
+sat-4,streptothricin
+fosA5, "ciproflaxin, gentamicin"
+Erm\(B\),"erythromycin, roxithromycin, clarithromycin, telithromycin, tylosin, spiramycin, azithromycin, dirithromycin, oleandomycin, josamycin, chalcomycin, midecamycin, mycinamicin, megalomycin, narbomycin, kitasamycin, carbomycin, rosaramicin, niddamycin, methymycin, pikromycin, rokitamycin, Solithromycin, cethromycin, carrimycin, tilmicosin, Mycaminosyltylonolide, lincomycin, clindamycin, celesticetin, pirlimycin, iboxamycin, virginiamycin M1, madumycin II, griseoviridin, dalfopristin, pristinamycin IA, quinupristin, pristinamycin IB, virginiamycin S2, pristinamycin IC, vernamycin C, patricin A, patricin B, ostreogrycin B3"
+fosA,"fosfomycin"
+
