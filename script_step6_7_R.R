@@ -136,5 +136,5 @@ term = c("tf_sigtransferase_predictions.csv", "hyd_sighydrolase_predictions.csv"
 pattern <- paste(term, collapse = "|")
 final$File_name= str_remove_all(final$File_name, pattern)
 setwd(paste0(directory,"/output7/"))
-write.csv(final, "final_amr_prediction_antibiotics.csv")
+write.csv(final, "ml_amr_prediction_antibiotics.csv")
 
