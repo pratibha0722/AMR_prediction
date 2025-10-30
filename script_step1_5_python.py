@@ -1,6 +1,6 @@
 #import required libraries
 import os
-#writing present directory in variable “directory”
+#writing present directory in variable “directory” where fasta files are given
 directory=os.getcwd()
 # set directory
 os.chdir(directory)
@@ -29,8 +29,8 @@ def process_multiple_files(input_folder, output_folder):
             process_fasta(input_file, output_file)
 #set input folder and output folder
 if __name__ == "__main__":
-    input_folder = "/lustre/pratibha/copyright_ex/"  
-    output_folder= "/lustre/pratibha/copyright_ex/output" 
+    input_folder = "/user/path/"  
+    output_folder= "/user/path/output" 
     process_multiple_files(input_folder, output_folder)
 
 #Step 2: Extracting sequence specific to gene families i.e transferase and hydrolase
@@ -112,8 +112,8 @@ def process_multiple_files_and_filter(input_folder, output_folder, gene_families
             process_fasta_and_filter(input_file, output_file, gene_families)
 if __name__ == "__main__":
 ###set input and output file folder
-    input_folder = "/lustre/pratibha/copyright_ex/output"  
-    output_folder = "/lustre/pratibha/copyright_ex/output2a/" 
+    input_folder = "/user/path/output"  
+    output_folder = "/user/path/output2a/" 
     gene_families = ["hydrol", "lactam", "peptidase"]  
     process_multiple_files_and_filter(input_folder, output_folder, gene_families)
 
@@ -129,7 +129,7 @@ from Bio import SeqIO
 directory = os.getcwd()
 nmer = 9
 ##read file in which list of kmers is given “transferase_sig_fea.csv”
-perms_as_strings_tf = pd.read_csv('/lustre/pratibha/copyright_ex/transferase_sig_fea.csv', header=None)
+perms_as_strings_tf = pd.read_csv('/user/path/transferase_sig_fea.csv', header=None)
 ##function to calculate kmer frequencies using mentioned formula 
 def kmer_function(mer, sequence):
     import re
@@ -139,10 +139,10 @@ def kmer_function(mer, sequence):
     x4 = f"{x3 / (N - nmer + 1):.16f}"
     return x4
 ##set input output directories
-input_dir = "/lustre/pratibha/copyright_ex/output2"
-output_dir = "/lustre/pratibha/copyright_ex/output3/"
-os.makedirs("/lustre/pratibha/copyright_ex/output3/", exist_ok=True)
-os.chdir("/lustre/pratibha/copyright_ex/output2")
+input_dir = "/user/path/output2"
+output_dir = "/user/path/output3/"
+os.makedirs("/user/path/output3/", exist_ok=True)
+os.chdir("/user/path/output2")
 
 text = [f for f in os.listdir() if f.endswith('.fasta')]
 for i in text:
@@ -167,7 +167,7 @@ import time
 directory = "/lustre/pratibha/copyright_ex"
 nmer = 9
 ##read file in which list of kmers is given “hydrolase_sig_fea.csv”
-perms_as_strings_tf = pd.read_csv('/lustre/pratibha/copyright_ex/hydrolase_sig_fea.csv', header=None)
+perms_as_strings_tf = pd.read_csv('/user/path/hydrolase_sig_fea.csv', header=None)
 #function to calculate kmer frequencies using mentioned formula 
 def kmer_function(mer, sequence):
     import re
@@ -177,10 +177,10 @@ def kmer_function(mer, sequence):
     x4 = f"{x3 / (N - nmer + 1):.16f}"
     return x4
 ##set input output directories
-input_dir = "/lustre/pratibha/copyright_ex/output2a"
-output_dir = "/lustre/pratibha/copyright_ex/output3a/"
-os.makedirs("/lustre/pratibha/copyright_ex/output3a/", exist_ok=True)
-os.chdir("/lustre/pratibha/copyright_ex/output2a")
+input_dir = "/user/path/output2a"
+output_dir = "/user/path/output3a/"
+os.makedirs("/user/path/output3a/", exist_ok=True)
+os.chdir("/user/path/output2a")
 ### for all the .fasta files in input directory , read these files, applying kmer_function and write as a separate .csv file for each input fasta output directory 
 text = [f for f in os.listdir() if f.endswith('.fasta')]
 for i in text:
@@ -208,11 +208,11 @@ import numpy as np
 directory="/lustre/pratibha/copyright_ex"
 os.chdir(directory)
 ## load transferase model (â€œmodel1.savâ€)
-model1 =pickle.load(open('/lustre/pratibha/copyright_ex/model1.sav', 'rb'))
+model1 =pickle.load(open('/user/path/model1.sav', 'rb'))
 ##set input directory where significant kmers are generated
-input_directory = "/lustre/pratibha/copyright_ex/output3"
+input_directory = "/user/path/output3"
 # Create a directory to store the output files
-output_directory ="/lustre/pratibha/copyright_ex/output4"
+output_directory ="/user/path/output4"
 os.makedirs(output_directory, exist_ok=True)
 
 # Create a list to store results for each file
@@ -250,11 +250,11 @@ import numpy as np
 directory="/lustre/pratibha/copyright_ex"
 os.chdir(directory)
 ###load hydrolase model  (â€œmodel2.savâ€)
-model2=pickle.load(open('/lustre/pratibha/copyright_ex/model2.sav', 'rb'))
+model2=pickle.load(open('/user/path/model2.sav', 'rb'))
 ##set input directory where significant kmers are generated
-input_directory = "/lustre/pratibha/copyright_ex/output3a"
+input_directory = "/user/path/output3a"
 # Create a directory to store the output files
-output_directory ="/lustre/pratibha/copyright_ex/output4a/"
+output_directory ="/user/path/output4a/"
 os.makedirs(output_directory, exist_ok=True)
 # Create a list to store results for each file
 #summary_results = []
